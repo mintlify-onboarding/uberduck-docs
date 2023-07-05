@@ -26,10 +26,6 @@
   },
   "tabs": [
     {
-      "name": "Guides",
-      "url": "guides"
-    },
-    {
       "name": "API Reference",
       "url": "reference"
     },
@@ -40,12 +36,8 @@
   ],
   "navigation": [
     {
-      "group": "",
-      "pages": ["uberduck-intro"]
-    },
-    {
       "group": "Quickstart",
-      "pages": ["guides/getting-started"]
+      "pages": ["uberduck-intro", "guides/getting-started"]
     },
     {
       "group": "Uberduck Text To Speech API",
@@ -120,7 +112,7 @@
       ]
     },
     {
-      "group": "",
+      "group": "Changelog",
       "pages": ["changelog/uberduck-v13", "changelog/welcome-to-uberduck"]
     }
   ],
