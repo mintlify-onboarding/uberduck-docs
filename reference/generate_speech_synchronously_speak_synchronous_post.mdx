@@ -1,0 +1,12 @@
+---
+title: "Generate Speech Synchronously"
+description: "Synthesize speech synchronously.This endpoint returns binary 16-bit wav data with a sample rate of 22050 Hz.
+
+Voice can be specified by providing either `voice` + `model_type`, or `voicemodel_uuid`.
+
+`Pace`, `duration`, and `pitch` are only supported for voices that support these controls (a very small subset of voices).
+
+You can check if a given voice supports controls by querying /voice-data or /voices//detail and looking at the `controls` boolean in the reponse."
+openapi: "POST /speak-synchronous"
+---
+

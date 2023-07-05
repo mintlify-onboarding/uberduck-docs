@@ -1,54 +1,153 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Uberduck",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#12A7D3",
-    "light": "#81D7F7",
-    "dark": "#004E7A"
+    "primary": "#F97516",
+    "light": "#FB923C",
+    "dark": "#EA5A0C"
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Sign In",
+      "url": "https://auth.uberduck.ai/login?"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Sign Up",
+    "url": "https://uberduck.ai/#"
+  },
+  "primaryTab": {
+    "name": "Home"
   },
   "tabs": [
     {
+      "name": "Guides",
+      "url": "guides"
+    },
+    {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "reference"
+    },
+    {
+      "name": "Changelog", 
+      "url": "changelog"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "uberduck-intro"
       ]
-    }
+    },
+    {
+      "group": "Quickstart",
+      "pages": [
+        "guides/getting-started"
+      ]
+    },
+    {
+      "group": "Uberduck Text To Speech API",
+      "pages": [
+        {
+          "group": "/reference-audio",
+          "pages": [
+            "reference/list_reference_audios_reference_audio_get",
+            "reference/add_reference_audio_reference_audio_post"
+          ]
+        },
+        {
+          "group": "/reference-audio/backing-tracks",
+          "pages": [
+            "reference/list_backing_tracks_reference_audio_backing_tracks_get"
+          ]
+        },
+        {
+          "group": "/voices",
+          "pages": [
+            "reference/get_voices_voices_get"
+          ]
+        },
+        {
+          "group": "/voices/{voicemodel_uuid}/detail",
+          "pages": [
+            "reference/voice_detail_voices__voicemodel_uuid__detail_get"
+          ]
+        },
+        {
+          "group": "/voices/{voicemodel_uuid}/samples",
+          "pages": [
+            "reference/voice_samples_voices__voicemodel_uuid__samples_get"
+          ]
+        },
+        {
+          "group": "/tts/lyrics",
+          "pages": [
+            "reference/generate_lyrics_tts_lyrics_post"
+          ]
+        },
+        {
+          "group": "/tts/freestyle",
+          "pages": [
+            "reference/generate_freestyle_tts_freestyle_post"
+          ]
+        },
+        {
+          "group": "/tts/convert",
+          "pages": [
+            "reference/voice_to_voice_conversion_tts_convert_post"
+          ]
+        },
+        {
+          "group": "/speak-status",
+          "pages": [
+            "reference/get_speak_status_speak_status_get"
+          ]
+        },
+        {
+          "group": "/speak",
+          "pages": [
+            "reference/generate_speech_speak_post"
+          ]
+        },
+        {
+          "group": "/speak-synchronous",
+          "pages": [
+            "reference/generate_speech_synchronously_speak_synchronous_post"
+          ]
+        },
+        {
+          "group": "/voice-stats",
+          "pages": [
+            "reference/get_voice_stats_voice_stats_get"
+          ]
+        },
+        {
+          "group": "/voice-data",
+          "pages": [
+            "reference/get_voice_voice_data_get"
+          ]
+        },
+        {
+          "group": "/g2p",
+          "pages": [
+            "reference/g2p_g2p_get"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "",
+      "pages": [
+        "changelog/uberduck-v13",
+        "changelog/welcome-to-uberduck"
+      ]
+    }    
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",

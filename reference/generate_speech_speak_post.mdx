@@ -1,0 +1,7 @@
+---
+title: "Generate Speech"
+description: "Synthesize speech asynchronously."
+openapi: "POST /speak"
+---
+
+Voice can be specified by providing either `voice` \+ `model_type`, or`voicemodel_uuid`.`Pace`, `duration`, and `pitch` are only supported for voices that support these controls (a very small subset of voices). You can check if a given voice supports controls by querying `/voice-data` or `/voices/<voicemodel-uuid>/detail` and looking at the `controls` boolean in the reponse.
