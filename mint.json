@@ -5,7 +5,7 @@
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.jpeg",
   "colors": {
     "primary": "#F97516",
     "light": "#FB923C",
@@ -34,22 +34,18 @@
       "url": "reference"
     },
     {
-      "name": "Changelog", 
+      "name": "Changelog",
       "url": "changelog"
     }
   ],
   "navigation": [
     {
       "group": "",
-      "pages": [
-        "uberduck-intro"
-      ]
+      "pages": ["uberduck-intro"]
     },
     {
       "group": "Quickstart",
-      "pages": [
-        "guides/getting-started"
-      ]
+      "pages": ["guides/getting-started"]
     },
     {
       "group": "Uberduck Text To Speech API",
@@ -69,9 +65,7 @@
         },
         {
           "group": "/voices",
-          "pages": [
-            "reference/get_voices_voices_get"
-          ]
+          "pages": ["reference/get_voices_voices_get"]
         },
         {
           "group": "/voices/{voicemodel_uuid}/detail",
@@ -87,33 +81,23 @@
         },
         {
           "group": "/tts/lyrics",
-          "pages": [
-            "reference/generate_lyrics_tts_lyrics_post"
-          ]
+          "pages": ["reference/generate_lyrics_tts_lyrics_post"]
         },
         {
           "group": "/tts/freestyle",
-          "pages": [
-            "reference/generate_freestyle_tts_freestyle_post"
-          ]
+          "pages": ["reference/generate_freestyle_tts_freestyle_post"]
         },
         {
           "group": "/tts/convert",
-          "pages": [
-            "reference/voice_to_voice_conversion_tts_convert_post"
-          ]
+          "pages": ["reference/voice_to_voice_conversion_tts_convert_post"]
         },
         {
           "group": "/speak-status",
-          "pages": [
-            "reference/get_speak_status_speak_status_get"
-          ]
+          "pages": ["reference/get_speak_status_speak_status_get"]
         },
         {
           "group": "/speak",
-          "pages": [
-            "reference/generate_speech_speak_post"
-          ]
+          "pages": ["reference/generate_speech_speak_post"]
         },
         {
           "group": "/speak-synchronous",
@@ -123,31 +107,22 @@
         },
         {
           "group": "/voice-stats",
-          "pages": [
-            "reference/get_voice_stats_voice_stats_get"
-          ]
+          "pages": ["reference/get_voice_stats_voice_stats_get"]
         },
         {
           "group": "/voice-data",
-          "pages": [
-            "reference/get_voice_voice_data_get"
-          ]
+          "pages": ["reference/get_voice_voice_data_get"]
         },
         {
           "group": "/g2p",
-          "pages": [
-            "reference/g2p_g2p_get"
-          ]
+          "pages": ["reference/g2p_g2p_get"]
         }
       ]
     },
     {
       "group": "",
-      "pages": [
-        "changelog/uberduck-v13",
-        "changelog/welcome-to-uberduck"
-      ]
-    }    
+      "pages": ["changelog/uberduck-v13", "changelog/welcome-to-uberduck"]
+    }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
