@@ -117,8 +117,10 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/__UBERDUCK__",
+    "website": "https://uberduck.ai/", 
+    "github": "https://github.com/uberduck-ai",
+    "instagram": "https://www.instagram.com/__uberduck__/", 
+    "discord": "https://discord.gg/ATYWnMu"
   }
 }
