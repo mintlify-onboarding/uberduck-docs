@@ -5,6 +5,9 @@
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
   },
+  "api": {
+    "baseUrl": ["https://api.uberduck.ai"]
+  },
   "favicon": "/favicon.jpeg",
   "colors": {
     "primary": "#F97516",
@@ -118,9 +121,9 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/__UBERDUCK__",
-    "website": "https://uberduck.ai/", 
+    "website": "https://uberduck.ai/",
     "github": "https://github.com/uberduck-ai",
-    "instagram": "https://www.instagram.com/__uberduck__/", 
+    "instagram": "https://www.instagram.com/__uberduck__/",
     "discord": "https://discord.gg/ATYWnMu"
   }
 }
